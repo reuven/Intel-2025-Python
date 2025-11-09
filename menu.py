@@ -1,5 +1,5 @@
 def menu(*args):
-    choice = input('Enter choice: ').strip()
+    choice = input(f'Enter choice ({args}): ').strip()
 
     if choice in args:
         return choice
