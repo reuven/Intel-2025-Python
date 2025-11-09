@@ -4,3 +4,5 @@ def menu(*args):
     
         if choice in args:
             return choice
+
+        print(f'Choose from the valid options!')
