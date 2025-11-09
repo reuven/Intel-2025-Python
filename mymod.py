@@ -1,3 +1,5 @@
+import operator
+
 print(f'Hello from {__name__}!')
 
 x = 100
