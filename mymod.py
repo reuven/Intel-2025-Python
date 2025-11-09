@@ -9,4 +9,7 @@ y = [10, 20, 30]
 def hello(name):
     return f'Hello, {name}!'
 
-print(f'Goodbye from {__name__}!')
+# ignore this code if imported
+# run this code if executed
+if __name__ == '__main__':
+    print(f'Goodbye from {__name__}!')
